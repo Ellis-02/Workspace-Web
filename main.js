@@ -4,7 +4,7 @@ $(document).ready(function () {
      paper.install(window);
      paper.setup( document.getElementById( 'mainCanvas' ) );
      var c;
-     for ( var x = 25; x < 400; x += 50 ) {
+     for ( var x = 25; x < 400; x += 50) {
          for ( var y = 25; y < 400; y += 50 ) {
              c = Shape.Circle( X, Y, 20 );
              c.fillColor = 'green' ;
@@ -22,6 +22,7 @@ $(document).ready(function () {
          var c =Shape.Circle( event.point, 20 );
          c.fillColor = 'green' ;
      };
+     
      paper.view.draw();
      console.log( 'jquery - main.js loaded' );
     
