@@ -1,7 +1,7 @@
 console.log( 'main.js loaded' )
-$(document).ready(function() {
+$(document).ready(function () {
      'use strict';
-     paper.install(windows);
+     paper.install(window);
      paper.setup( document.getElementById( 'mainCanvas' ) );
      var c;
      for ( var x = 25; x < 400; x += 50 ) {
