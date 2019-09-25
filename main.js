@@ -2,7 +2,7 @@ console.log( 'main.js loaded' )
 $(document).ready(function() {
      'use strict';
      paper.install(windows);
-     paper.setup( document.getElementByld( 'mainCanvas' ) );
+     paper.setup( document.getElementById( 'mainCanvas' ) );
      var c;
      for ( var x = 25; x < 400; x += 50 ) {
          for ( var y = 25; y < 400; y += 50 ) {
@@ -19,7 +19,7 @@ $(document).ready(function() {
      text.center = 'Hello, World!!';
     
      tool.onMouseDown = function( event ) {
-         var x =Shape.Circle( event.point, 20 );
+         var c =Shape.Circle( event.point, 20 );
          c.fillColor = 'green' ;
      };
      paper.view.draw();
