@@ -1,5 +1,5 @@
 console.log( 'main.js loaded' )
-$(document).ready('function'()); {
+$(document).ready(function() {
      'use strict';
      paper.install(windows);
      paper.setup( document.getElementByld( 'mainCanvas' ) );
@@ -15,7 +15,7 @@ $(document).ready('function'()); {
      var c = Shape.Circle( 200, 200, 80 );
      c.fillColor = 'black' ;
      var text = new PointText( 200, 200 );
-     text.justification = 'center'; text.fillColor = 'white' ; text.fontsize = 20;
+     text.justification = 'center'; text.filColor = 'white' ; text.fontsize = 20;
      text.center = 'Hello, World!!';
     
      tool.onMouseDown = function( event ) {
@@ -25,4 +25,4 @@ $(document).ready('function'()); {
      paper.view.draw();
      console.log( 'jquery - main.js loaded' );
     
-    };
+    });
