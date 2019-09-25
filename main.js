@@ -1,5 +1,5 @@
 console.log( 'main.js loaded' )
-$(document).ready(fucntion); {
+$(document).ready('function'()); {
      'use strict';
      paper.install(windows);
      paper.setup( document.getElementByld( 'mainCanvas' ) );
@@ -18,7 +18,7 @@ $(document).ready(fucntion); {
      text.justification = 'center'; text.fillColor = 'white' ; text.fontsize = 20;
      text.center = 'Hello, World!!';
     
-     tool.onMoseDown = function( event ) {
+     tool.onMouseDown = function( event ) {
          var x =Shape.Circle( event.point, 20 );
          c.fillColor = 'green' ;
      };
