@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>CSS3 Attribute/Parent/Child selector</title>
+    <style>
+     input[type="text"] {background: red; }
+     input[type="password" ] {background: blue; }
+     #header h1 { color: red; }
+     #section h1 { color: blue; }
+     table > tbody 
+     
+     > tr > th { color: greenyellow; }
+    </style>
+    </head>
+    <body>
+        <div>
+            <form>
+                <input type="text">
+                <input type="password">
+            </form>
+        </div>
+        <hr>
+        <div id="header">
+            <h1 class="title">Title</h1>
+            <div id="nav">
+                <h1>Navigation</h1>
+            </div>
+        </div>
+        <div id="section">
+            <h1 class="title">Title</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        <hr>
+        <div>
+            <table border="1">
+                <tr>
+                    <th>이름</th>
+                    <th>지역</th>
+                </tr>
+                <tr>
+                    <td>홍길동</td>
+                    <td>서울시가 다 집이다...</td>
+                </tr>
+            </table>        
+        </div>
+    </body>
+</html>
